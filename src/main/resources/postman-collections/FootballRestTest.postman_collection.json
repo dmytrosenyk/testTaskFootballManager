@@ -1,0 +1,599 @@
+{
+	"info": {
+		"_postman_id": "1bd5e950-c00c-4fa9-bc69-f886d3293a16",
+		"name": "FootballRestTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "try_to_add_new_team_ok",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Roxanne Edwards\",\n    \"dateOfCreate\": \"2000-01-01\",\n    \"budget\": \"1234000.3\",\n    \"commission\": \"0.3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_team_ok",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Alicia Riggs\",\n    \"dateOfCreate\": \"2002-05-14\",\n    \"budget\": \"20324324.234\",\n    \"commission\": \"5.0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_team_fail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Alicia Riggs\",\n    \"dateOfCreate\": \"2002-05-14\",\n    \"budget\": \"20324324.234\",\n    \"commission\": \"5.0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_team_ok",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Lydia Pratt\",\n    \"dateOfCreate\": \"2014-01-01\",\n    \"budget\": \"1234000.3\",\n    \"commission\": \"0.3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_player_ok",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"William Keller\",\n    \"dateOfBirth\": \"2000-01-01\",\n    \"dateOfStartCareer\": \"2015-03-24\",\n    \"team\": \"Roxanne Edwards\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_player_ok",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Grover Santiago\",\n    \"dateOfBirth\": \"1990-10-17\",\n    \"dateOfStartCareer\": \"2008-05-19\",\n    \"team\": \"Alicia Riggs\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_player_ok",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Vincent Mayer\",\n    \"dateOfBirth\": \"2000-01-01\",\n    \"dateOfStartCareer\": \"2015-03-24\",\n    \"team\": \"Roxanne Edwards\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_player_ok",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Anoushka Bishop\",\n    \"dateOfBirth\": \"1980-10-13\",\n    \"dateOfStartCareer\": \"2004-05-30\",\n    \"team\": \"Alicia Riggs\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_player_ok",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Muhammed Stephenson\",\n    \"dateOfBirth\": \"1982-06-22\",\n    \"dateOfStartCareer\": \"2000-08-26\",\n    \"team\": \"Alicia Riggs\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_player_fail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Muhammed Stephenson v2\",\n    \"dateOfBirth\": \"1982-06-22\",\n    \"dateOfStartCareer\": \"2000-08-26\",\n    \"team\": \"Alicia Riggss\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_add_new_player_fail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Muhammed Stephenson\",\n    \"dateOfBirth\": \"1982-06-22\",\n    \"dateOfStartCareer\": \"2000-08-26\",\n    \"team\": \"Roxanne Edwards\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_update_player_ok",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud/William Keller?nameOfNewTeam=Alicia Riggs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud",
+						"William Keller"
+					],
+					"query": [
+						{
+							"key": "nameOfNewTeam",
+							"value": "Alicia Riggs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_update_player_fail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud/William Keller?nameOfNewTeam=Alicia Riggs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud",
+						"William Keller"
+					],
+					"query": [
+						{
+							"key": "nameOfNewTeam",
+							"value": "Alicia Riggs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_update_player_fail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud/William Keller?nameOfNewTeam=Alicia Riggses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud",
+						"William Keller"
+					],
+					"query": [
+						{
+							"key": "nameOfNewTeam",
+							"value": "Alicia Riggses"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_update_team_ok",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud/Roxanne Edwards?newName=Humaira Tanner",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud",
+						"Roxanne Edwards"
+					],
+					"query": [
+						{
+							"key": "newName",
+							"value": "Humaira Tanner"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_update_team_fail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud/Roxanne Edwards?newName=Humaira Tanner",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud",
+						"Roxanne Edwards"
+					],
+					"query": [
+						{
+							"key": "newName",
+							"value": "Humaira Tanner"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_update_team_fail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud/Roxanne Edwards?newName=Humaira Tanner v2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud",
+						"Roxanne Edwards"
+					],
+					"query": [
+						{
+							"key": "newName",
+							"value": "Humaira Tanner v2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_delete_team_ok",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud/Lydia Pratt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud",
+						"Lydia Pratt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_delete_team_fail",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/team/crud/Carolina Panthers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"team",
+						"crud",
+						"Carolina Panthers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_delete_player_ok",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud/Muhammed Stephenson",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud",
+						"Muhammed Stephenson"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "try_to_delete_player_fail",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/player/crud/Muhammed Stephenson",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"player",
+						"crud",
+						"Muhammed Stephenson"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
